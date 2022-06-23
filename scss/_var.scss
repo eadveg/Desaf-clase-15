@@ -1,2 +1,18 @@
 $colorAgua: #7ee8fa;
-$colorTransparente: #ffffff00
+$colorTransparente: #ffffff00;
+
+@mixin logosm {
+    width: 35px;
+	padding: 0px;
+	margin: 0px;
+}
+@mixin logomd {
+    width: 70px;
+	padding: 0px;
+	margin: 0px;
+}
+@mixin logolg {
+    width: 120px;
+	padding: 0px;
+	margin: 0px;
+}

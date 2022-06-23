@@ -10,59 +10,46 @@ body {
 header ul a {
   color: black;
   border-radius: 20px;
-  -webkit-box-shadow: 0px 0px 1px #7ee8fa;
-          box-shadow: 0px 0px 1px #7ee8fa;
-  -webkit-transition: all 1s;
+  box-shadow: 0px 0px 1px #7ee8fa;
   transition: all 1s;
 }
-
 header ul a:hover {
-  -webkit-box-shadow: 1px 1px 15px gray;
-          box-shadow: 1px 1px 15px gray;
-  -webkit-transition: all 1s;
+  box-shadow: 1px 1px 15px gray;
   transition: all 1s;
 }
-
 header .imglogo {
   width: 35px;
+  padding: 0px;
+  margin: 0px;
 }
-
 header .no {
   color: black;
   padding: 5px;
   margin: 5px;
 }
-
 header .no:hover {
-  background-color: #ffffff00;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 main .imgbox {
   width: 210px;
   height: 158px;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 0px 15px #7ee8fa;
-          box-shadow: 0px 0px 15px #7ee8fa;
+  box-shadow: 0px 0px 15px #7ee8fa;
   opacity: 0.8;
-  -webkit-transition: all 1.5s;
   transition: all 1.5s;
 }
-
 main .imgbox:hover {
   width: 210px;
   height: 158px;
   opacity: 1;
-  -webkit-box-shadow: 0px 0px 10px black;
-          box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px black;
   border-radius: 5%;
-  -webkit-transition: all 1.5s;
   transition: all 1.5s;
 }
 
 footer {
-  background-color: #ffffff00;
+  background-color: rgba(255, 255, 255, 0);
   border-radius: 20px;
-  -webkit-box-shadow: 0px 0px 10px gray;
-          box-shadow: 0px 0px 10px gray;
-}
-/*# sourceMappingURL=style.css.map */
+  box-shadow: 0px 0px 10px gray;
+}/*# sourceMappingURL=style.css.map */

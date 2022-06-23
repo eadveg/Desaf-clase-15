@@ -12,7 +12,7 @@ header {
 		}
 	}
 	.imglogo {
-		width: 35px;
+		@include logosm;
 	}
 	.no{
 		color: black;
